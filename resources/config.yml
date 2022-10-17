@@ -1,0 +1,31 @@
+# DAMAGE
+
+# Use this function? (true or false)
+status.damage: true
+
+# Set the penalty to "%" of damage if the player is playing with a PC (use a value from "15" to "75" or specify "0" if you do not want to use this parameter):
+parameter.damage.penalty: 50
+
+# Set the kick delay if the player is playing with a PC (use a value from "11" to "20" or specify "0" if you do not want to use this parameter):
+parameter.damage.delay: 15
+
+
+# NAMETAG
+
+# Use this function? (true or false):
+status.nametag: false
+
+# specify the label that will be displayed next to the nickname of the player playing with a PC:
+parameter.nametag.label: "§7Win10§r"
+
+# Specify the location of the label relative to the player's nickname (Values: bottom, top, left, right):
+parameter.nametag.location: bottom
+
+
+# KICK
+
+# Use this function? (true or false):
+status.kick: false
+
+# Specify the message that will be displayed when ejected from the server when the player is playing with a PC:
+parameter.kick.message: "PC is prohibited"
