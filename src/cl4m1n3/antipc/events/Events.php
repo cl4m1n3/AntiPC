@@ -20,13 +20,13 @@ class Events implements Listener{
             $damage = $event->getBaseDamage();
             if($entity instanceof Player && $damager instanceof Player && Main::getInstance()->cfg->get("status.damage")){
                 if(Main::getInstance()->checkPC($damager)){
-                    if($penaltydamage > 0 && $penaltydamage >= 15 && $penaltydamage <= 50 && $damage >= 4){
+                    if($penaltydamage >= 15 && $penaltydamage <= 50 && $damage >= 4){
                         $result = round($damage * ($penaltydamage / 100));
                         if($entity->getHealth() > $result){
                             $entity->setHealth($entity->getHealth() + $result);
                         }
                     }
-                    if($delay > 0 && $delay >= 11 && $delay <= 20){
+                    if($delay >= 11 && $delay <= 20){
                         $event->setAttackCooldown($delay);
                     }
                 }
