@@ -1,6 +1,6 @@
 # AntiPC
 <p align="middle"> 
-    <img src="https://github.com/cl4m1n3/AntiPC/blob/main/design/icon.png" </img>
+    <img src="https://github.com/cl4m1n3/AntiPC/blob/main/icon.png" </img>
     <br>
     <b> Convenient plug-in for setting restrictions for PC </b>
     </p>
